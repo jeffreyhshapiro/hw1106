@@ -1,0 +1,88 @@
+body {
+	background-color: gray;
+	background-image: url(cool-background.png);
+	font: 15px arial, sans-serif
+}
+p.a {
+	padding: 10px;
+	width: 65%
+}
+p.b {
+	position: relative;
+	width: 65%;
+	top: -10px;
+	padding: 10px;
+}
+p.c {
+	position: relative;
+	width:30%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	top: -400px;
+}
+
+p.d {
+	width:40%;
+	padding: 10px;
+	position: relative;
+	top: -20px
+}
+
+aside.a {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 70%;
+	position: absolute;
+	top: 70px;
+}
+
+.center {
+	text-align: center;
+}
+
+#section1 {
+	border: 10px solid blue;
+}
+#section2 {
+	border: 10px dotted green;
+}
+
+#section3 {
+	border: 10px solid red;
+}
+
+#section4 {
+	border: 10px dotted orange;
+}
+
+#section5 {
+	border: 5px dotted black;
+}
+
+#vader-resize {
+	position:relative;
+	height:auto;
+	width:auto;
+	max-height: 400px;
+	max-width: 400px;
+	left:45%;
+	border: 2px solid black;
+}
+
+#alternative-css {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	font-style: bold;
+	border: 2px solid blue;
+}
+
+#bottom-div {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	background-color: red;
+	font-size: 1.8em
+}
